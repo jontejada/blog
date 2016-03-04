@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Notes on APIs"
+date: 2015-11-15 11:26:00 -800
+categories: galvanize notes
+published: false
+---
+#APIs from the front end
+from 2015-11-11 d18
+
+##What is an API?
+* [application programming interface](https://en.wikipedia.org/wiki/Web_API)
+* any mechanism to ask for something from a program
+* not much different from a library, e.g. lodash
+	* difference is where the code lives
+	* an API doesn't have to be installed
+* make a request and get a determistic response
+* [Google URL shortener](https://developers.google.com/url-shortener/?hl=en) is an example of a non-data API that is library like 
+* SDK or devkit makes it easier
+	* from Facebook sdk:
+
+```
+<script>
+// Only works after `FB.init` is called
+function myFacebookLogin() {
+ FB.login(function(){}, {scope: 'publish_actions'});
+}
+</script>
+<button onclick="myFacebookLogin()">Login with Facebook</button>
+```
+* Pandora does not have an API
+
+##architectural implications
+* increasingly popular, but some negatives
+* 90s style static HTML sites are simple, easy, fast
+* modern Etsy site adds a suite of requests from your device with css, js, backbone.
+	* Then a bespoke API request is made, which triggers a series of serverside requests.
+	* A bundled response is returned.
+	* [Etsy engineering blog](https://codeascraft.com/)
+
+##ex
+* `$.get` jquery shorthand AJAX function
+* 

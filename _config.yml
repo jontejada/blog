@@ -1,0 +1,38 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               jontejada.com/blog
+tagline:              +
+url:                 http://www.jontejada.com/blog
+paginate:            4
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Jon Tejada
+  url:               https://www.jontejada.com
+  email:             
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/jontejada/blog
+
+# Make redcarpet behave like GitHub Flavored Markdown
+markdown: redcarpet
+redcarpet:
+ extensions: ["tables"]
+
+
+gems: [jekyll-paginate]
