@@ -5,8 +5,8 @@ permalink:           pretty
 # relative_permalinks: true
 
 # Setup
-title:               jontejada.com/blog
-tagline:              +
+title:               /blog
+tagline:             notes
 url:                 http://www.jontejada.com/
 paginate:            4
 baseurl:             "/blog"

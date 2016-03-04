@@ -14,7 +14,7 @@ from 2015-11-11 d18
 * not much different from a library, e.g. lodash
 	* difference is where the code lives
 	* an API doesn't have to be installed
-* make a request and get a determistic response
+* make a request and get a deterministic response
 * [Google URL shortener](https://developers.google.com/url-shortener/?hl=en) is an example of a non-data API that is library like 
 * SDK or devkit makes it easier
 	* from Facebook sdk:
