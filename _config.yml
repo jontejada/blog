@@ -7,9 +7,9 @@ permalink:           pretty
 # Setup
 title:               jontejada.com/blog
 tagline:              +
-url:                 http://www.jontejada.com/blog
+url:                 http://www.jontejada.com/
 paginate:            4
-baseurl:             ""
+baseurl:             "blog"
 
 # Assets
 #
