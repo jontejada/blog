@@ -9,7 +9,7 @@ title:               jontejada.com/blog
 tagline:              +
 url:                 http://www.jontejada.com/
 paginate:            4
-baseurl:             "blog"
+baseurl:             "/blog"
 
 # Assets
 #
