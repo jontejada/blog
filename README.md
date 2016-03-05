@@ -4,3 +4,5 @@
 - uses [Poole](https://github.com/poole/poole) for templates and initial styling
 - posts are written in markdown format and saved to the `_posts` directory
 - customization is done in `_config.yml` file and html templates in the `_layouts` directory.
+
+(code was migrated from [this](https://github.com/jontejada/jontejada.github.io) repo)
